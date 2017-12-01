@@ -17,6 +17,6 @@ public class HelloServlet extends HttpServlet {
 		System.out.println("Heroku App PORT   : " + System.getenv("PORT"));
 		res.getWriter().println("TEST_VARIABLE   : " + System.getenv("TEST_VARIABLE"));
 		res.getWriter().println("Heroku App PORT   : " + System.getenv("PORT"));
-		res.getWriter().println("Hello World! modified-1");
+		res.getWriter().println("Hello World! develop1 update-5");
 	}
 }
