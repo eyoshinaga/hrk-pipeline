@@ -1,0 +1,19 @@
+{
+  "name": "hrk-pipeline",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "TEST_VARIABLE": "Test"
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
