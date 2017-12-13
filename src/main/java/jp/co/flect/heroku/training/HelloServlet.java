@@ -13,7 +13,7 @@ public class HelloServlet extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-		System.out.println("TEST_VARIABLE   : " + System.getenv("TEST_VARIABLE"));
+		System.out.println("<h1>TEST_VARIABLE   : " + System.getenv("TEST_VARIABLE")+ "<h1>");
 		System.out.println("Heroku App PORT   : " + System.getenv("PORT"));
 		res.getWriter().println("TEST_VARIABLE   : " + System.getenv("TEST_VARIABLE"));
 		res.getWriter().println("Heroku App PORT   : " + System.getenv("PORT"));
