@@ -15,8 +15,8 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		System.out.println("TEST_VARIABLE   : " + System.getenv("TEST_VARIABLE"));
 		System.out.println("Heroku App PORT   : " + System.getenv("PORT"));
-		res.getWriter().println("<h1 >TEST_VARIABLE   : <font color=\"yellow\">" + System.getenv("TEST_VARIABLE")+ "</font></h1>");
+		res.getWriter().println("<h1 >TEST_VARIABLE   : <font color=\"red\">" + System.getenv("TEST_VARIABLE")+ "</font></h1>");
 		res.getWriter().println("Heroku App PORT   : " + System.getenv("PORT"));
-		res.getWriter().println("Hello World! develop3 update-20");
+		res.getWriter().println("Hello World! develop3 update-21");
 	}
 }
